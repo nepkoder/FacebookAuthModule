@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FBKitLoginActivity">
+    <LinearLayout
+        android:background="#000000"
+        android:backgroundTint="#000000"
+        android:padding="15dp"
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <Button
+        android:background="#333ab7"
+        android:layout_marginTop="30dp"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onLoginPhone"
+        android:text="Login with Phone"
+        />
+    <Button
+        android:background="#333ab7"
+        android:layout_marginTop="30dp"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onLoginEmail"
+        android:text="Login with Email"
+        />
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/login_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp" />
+        <Button
+            android:background="#333ab7"
+            android:layout_marginTop="30dp"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onLogout"
+            android:text="LogOut"
+            />
+
+    <TextView
+        android:textColor="#fff"
+        android:text="FB KIT LOGIN - NEPKODER"
+        android:textSize="22dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    </LinearLayout>
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/progress_bar_parent"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ProgressBar
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

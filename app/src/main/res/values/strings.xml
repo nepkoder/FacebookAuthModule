@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FB NepKoder Config</string>
+    <string name="fb_app_id">366139020868450</string>
+    <string name="facebook_app_id">366139020868450</string>
+    <string name="fb_login_protocol_scheme">fb366139020868450</string>
+    <string name="FACEBOOK_APP_ID">366139020868450</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">f978fd578970d56f75363eba68f0cb25</string>
+    <string name="ak_login_protocol_scheme">ak366139020868450</string>
+    <string name="permissions_get_accounts_message">Grant permission to read your email address from your device to pre-fill.</string>
+    <string name="permissions_get_accounts_title">Read Email Address</string>
+    <string name="permissions_read_phone_state_message">Grant permission to read your phone number from your device to pre-fill.</string>
+    <string name="permissions_read_phone_state_title">Read Phone Number</string>
+    <string name="permissions_receive_sms_message">Grant permission to read your SMS code from your device to pre-fill.</string>
+    <string name="permissions_receive_sms_title">Read SMS Code</string>
+
+</resources>
